@@ -1,15 +1,11 @@
-def celcius_to_farenheit(x):
-    """ a function that converts celcius to farenheits
-    """
+def cel_to_far(x):
     farenheit = (9/5)*x + 32
     return farenheit
 
-print(celcius_to_farenheit(28))
+print(cel_to_far(28))
 
-def farenheit_to_celcius(y):
-    """ a function that converts farenheits to celcius
-    """
+def far_to_cel(y):
     celcius = (y - 32)*(5/9)
     return int(celcius)
 
-print(farenheit_to_celcius(celcius_to_farenheit(28)))
+print(far_to_cel(cel_to_far(28)))
