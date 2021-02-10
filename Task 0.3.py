@@ -1,4 +1,4 @@
 def hello(x):
-    print("Hello " + x + "!")
+    print(f"Hello {x} !")
 
 hello("Tshepo")
