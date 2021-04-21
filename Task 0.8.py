@@ -9,4 +9,8 @@ def toHours(time):
         strmin += "s"
     print(f"{hour} {strhour} and {minute} {strmin}")
 
-toHours(121)
+def main():
+    toHours(121)
+
+if __name__ == "__main__":
+    main()

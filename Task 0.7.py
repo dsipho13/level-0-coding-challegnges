@@ -1,11 +1,15 @@
-def cel_to_far(x):
-    farenheit = (9/5)*x + 32
+def toFarenheit(temperature):
+    farenheit = (9/5)*temperature + 32
     return farenheit
 
-print(cel_to_far(28))
+print(toFarenheit(28))
 
-def far_to_cel(y):
-    celcius = (y - 32)*(5/9)
+def toCelcius(temperature):
+    celcius = (temperature - 32)*(5/9)
     return int(celcius)
 
-print(far_to_cel(cel_to_far(28)))
+def main():
+    print(toCelcius(toFarenheit(28)))
+
+if __name__ == "__main__":
+    main()

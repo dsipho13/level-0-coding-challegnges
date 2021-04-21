@@ -12,6 +12,9 @@ def vowels(word):
 
         print(f"{coma.join(vowel)}")
 
+def main():
+    vowels("yyhreuieasuouioEAOUIIOYOUg")
 
-vowels("yyhreuieasuouioEAOUIIOYOUg")
+if __name__ == "__main__":
+    main()
 

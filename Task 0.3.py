@@ -1,4 +1,8 @@
-def hello(x):
-    print(f"Hello {x} !")
+def hello(name):
+    print(f"Hello {name}!")
 
-hello("Tshepo")
+def main():
+    hello("Tshepo")
+
+if __name__ == "__main__":
+    main()
