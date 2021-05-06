@@ -1,6 +1,8 @@
-x, y = 1, 2
+x = 1
+y = 2
 print(x)
 print(y)
-x, y = x + 3, x + y
+x = x + 3
+y = x + y
 print(x)
 print(y)
