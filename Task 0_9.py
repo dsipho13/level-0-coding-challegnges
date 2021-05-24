@@ -10,7 +10,7 @@ def vowels(word):
     if vowel == "":
         print("There are no vowels in your word")
     else:
-        print(f"{coma.join(vowel)}")
+        print(f"Vowels: {coma.join(vowel)}")
 
 
 def main():
