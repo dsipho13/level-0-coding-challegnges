@@ -1,9 +1,9 @@
 def maximum(*arg):
-    maxnumber = arg[0]
+    largest = arg[0]
     for i in range(len(arg)):
-        if maxnumber < arg[i]:
-            maxnumber = arg[i]
-    return maxnumber
+        if largest < arg[i]:
+            largest = arg[i]
+    return largest
 
 
 def main():
