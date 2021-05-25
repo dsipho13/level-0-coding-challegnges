@@ -2,11 +2,9 @@ def vowels(word):
     vowel = ""
     coma = ", "
     for letter in word:
-        if (
-            letter.lower() in (["a", "e", "i", "o", "u"])
-            and letter.lower() not in vowel
-        ):
-            vowel = vowel + letter.lower()
+        letter = letter.lower()
+        if letter in (["a", "e", "i", "o", "u"]) and letter not in vowel:
+            vowel = vowel + letter
     if vowel == "":
         print("There are no vowels in your word")
     else:
